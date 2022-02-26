@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "P8QwADgQZhZlcjEluYZ9B/ZESV5tcsVOUZ3ZRufEhj8=",
+  "Source": "ElevatorServer",
+  "BasePath": "_content/ElevatorServer",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

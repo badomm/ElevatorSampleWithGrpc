@@ -1,0 +1,3 @@
+obj\Debug\net6.0/ElevatorService.cs \
+obj\Debug\net6.0/ElevatorServiceGrpc.cs: C:/Users/jimmy/.nuget/packages/grpc.tools/2.44.0/build/native/include/google/protobuf/empty.proto\
+ ../elevator_service.proto
