@@ -172,17 +172,17 @@ public class Elevator : IElevator
     private ElevatorState ExecuteDoorOpenState(int floorCommand)
     {
         // Action
-        CompleteFloorCommand(floorCommand);
         doorTimerMs += updateFreqMs;
 
-        // Transistion
         if (doorTimerMs < doorOpenTimeMs)
         {
             return ElevatorState.DOOROPEN;
         }
 
+        CompleteFloorCommand(floorCommand);
         ResetDoortimer();
 
+        // Transistion
         if (IsAtFloor(floorCommand))
         {
             return ElevatorState.STANDBY;
